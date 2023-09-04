@@ -22,7 +22,6 @@ function App() {
   return (
     <>
       <h2> Termékek </h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione expedita exercitationem officia ab nisi sit velit necessitatibus accusantium, quo, quae dolores provident repellendus praesentium eaque, placeat consequuntur? Vel, perferendis harum?</p>
       <div className='flex-parent'>
         {data.products.map((item, index) => {
           return <div className='list-item' key={index}>
